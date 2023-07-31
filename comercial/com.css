@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@charset "UTF-8";
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding-top: 20px;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(9, 241, 90);
+    text-shadow: 3px 2px 5px blue;
+}
+
+article > h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 30px;
+}
+
+article > h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+article > a {
+    text-decoration: none;
+    color: lightgreen;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin: 10px;
+
+}
+
+i#burguer {
+    background-color: black;
+    color: rgb(9, 241, 90);
+    display: block;
+    text-align: center;
+    padding: 50px;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 2px 5px blue;
+    background-color: black;
+    color: rgb(9, 241, 90);
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(40, 77, 53);
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
