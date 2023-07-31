@@ -19,13 +19,13 @@ body, html {
 header {
     background-color: black;
     padding-top: 20px;
-
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
     color: rgb(9, 241, 90);
+    text-shadow: 3px 2px 5px blue;
 }
 
 article > h2 {
@@ -54,6 +54,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
+    text-shadow: 3px 2px 5px blue;
     background-color: black;
     color: rgb(9, 241, 90);
     border-top: 2px solid gray;
@@ -67,5 +68,4 @@ main {
     text-align: center;
     margin: auto;
     padding: 10px;
-
 }
