@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
+@charset "UTF-8";
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding-top: 20px;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(9, 241, 90);
+    text-shadow: 3px 2px 5px blue;
+}
+
+article > h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+article > h3 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article > a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(9, 241, 90);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: #d0ffbf;
+}
+
+i#burguer {
+    background-color: black;
+    color: rgb(9, 241, 90);
+    display: block;
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 2px 5px blue;
+    background-color: black;
+    color: rgb(9, 241, 90);
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(40, 77, 53);
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
