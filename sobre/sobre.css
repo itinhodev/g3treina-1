@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
 @charset "UTF-8";
 
 * {
@@ -24,6 +24,16 @@ header > h1 {
     text-shadow: 3px 2px 5px blue;
 }
 
+article > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
 article > h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: lighter;
@@ -31,28 +41,6 @@ article > h2 {
     text-align: center;
     margin: 10px;
     padding: 10px;
-}
-
-article > h3 {
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size: 40px;
-    color: white;
-    padding: 20px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-article > a {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(9, 241, 90);
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 a:hover {
