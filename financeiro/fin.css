@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Quicksand:wght@300;400;500;600;700&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Quicksand:wght@300;400;500;600;700&family=Tektur&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
 @charset "UTF-8";
 
 * {
@@ -48,8 +48,7 @@ article > h3 {
     border-radius: 50px;
     border-style: double;
     border-color: lightgreen;
-    font-family: 'Lumanosimo', cursive;
-    font-weight: lighter;
+    font-family: 'Tektur', cursive;
     font-size: 40px;
     color: white;
     padding: 20px;
