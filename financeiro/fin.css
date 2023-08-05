@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Quicksand:wght@300;400;500;600;700&family=Ysabeau+SC:wght@1;100;200;300;400&display=swap');
 @charset "UTF-8";
 
 * {
@@ -27,7 +27,7 @@ header > h1 {
 article > h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     text-align: center;
     margin: 10px;
@@ -35,7 +35,7 @@ article > h1 {
 }
 
 article > h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
     color: white;
     text-align: center;
