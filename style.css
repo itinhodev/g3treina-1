@@ -16,19 +16,15 @@ header {
     padding-top: 20px;
 }
 
-header > h1 {
-    padding: 10px;
-    text-decoration: none;
+.logo {
+    justify-content: center;
     text-align: center;
-    color: rgb(9, 241, 90);
-    text-shadow: 3px 2px 5px blue;
-}
-
-article > h2 {
-    color: white;
+    align-items: center;
+    width: 100%;
 }
 
 i#burguer {
+    margin-top: 30px;
     color: rgb(222, 241, 228);
     display: block;
     text-align: center;
@@ -114,10 +110,6 @@ main {
     }
     menu > ul > li > a:hover{
         transition: 1s;
-    }
-    menu > ul > li:last-child a {
-        float: right;
-        color: lawngreen;
     }
     main {
         width: 768px;
