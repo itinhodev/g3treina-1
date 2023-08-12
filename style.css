@@ -21,11 +21,18 @@ header {
     text-align: center;
     align-items: center;
     width: 100%;
+    margin-top: 30px;
+}
+
+.menu {
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
 }
 
 i#burguer {
     margin-top: 30px;
-    color: rgb(222, 241, 228);
+    color: white;
     display: block;
     text-align: center;
     padding: 20px;
@@ -43,20 +50,14 @@ menu > ul {
 menu > ul > li > a {
     display: block;
     padding: 10px;
+    margin: 5px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 3px 2px 5px blue;
-    color: rgb(9, 241, 90);
+    color: #00bf63;
 }
 
 menu > ul > li > a:hover {
     background-color: rgb(40, 77, 53);
-}
-
-main {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
 }
 
 @media screen and (min-width: 1160px) {
@@ -78,10 +79,6 @@ main {
     }
     menu > ul > li > a:hover{
         transition: 1s;
-    }
-    menu > ul > li:last-child a {
-        float: right;
-        color: lawngreen;
     }
     main {
         width: 768px;

@@ -13,15 +13,21 @@ body, html {
 }
 
 header {
-    background-color: black;
     padding-top: 20px;
 }
 
-header > h1 {
-    padding: 10px;
+.logo {
+    justify-content: center;
     text-align: center;
-    color: rgb(9, 241, 90);
-    text-shadow: 3px 2px 5px blue;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+} 
+
+.menu {
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
 }
 
 article > h1 {
@@ -75,8 +81,7 @@ a:hover {
 }
 
 i#burguer {
-    background-color: black;
-    color: rgb(9, 241, 90);
+    color: white;
     display: block;
     text-align: center;
     padding: 40px;
@@ -96,9 +101,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 3px 2px 5px blue;
-    background-color: black;
-    color: rgb(9, 241, 90);
+    color: #00bf63;
     border-top: 2px solid gray;
 }
 
@@ -110,4 +113,57 @@ main {
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+
+@media screen and (min-width: 1160px) {
+
+    i#burguer {
+        display:none;
+    }
+    menu {
+        padding: 30px;
+        display: block;
+    }
+    menu > ul > li {
+        display: inline;
+    }
+    menu > ul > li > a {
+        padding: 15px;
+        display: inline-block;
+        border: none;
+    }
+    menu > ul > li > a:hover{
+        transition: 1s;
+    }
+    main {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1160px) {
+
+    i#burguer {
+        display:none;
+    }
+    menu {
+        padding: 30px;
+        display: flex;
+        font-size: 10px;
+    }
+    menu > ul > li {
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+    }
+    menu > ul > li > a {
+        padding: 15px;
+        display: inline-block;
+        border: none;
+    }
+    menu > ul > li > a:hover{
+        transition: 1s;
+    }
+    main {
+        width: 768px;
+    }        
 }

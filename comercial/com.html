@@ -9,22 +9,45 @@
 </head>
 <body>
     <header>
-        <h1>G3TREINA</h1>
+        <div class="logo">
+            <a href="/index.html">
+            <img src="/img/coach-removebg-preview.ico" alt="coach">
+            </a>
+        </div>
         <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()"><span class="material-symbols-outlined">
             <span class="material-symbols-outlined">
                 fingerprint
                 </span>
             </span></i>
-        <menu id="itens">
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/comercial/com.html">COMERCIAL</a></li>
-                <li><a href="/financeiro/fin.html">FINANCEIRO</a></li>
-                <li><a href="/operacional/op.html">OPERACIONAL</a></li>
-                <li><a href="/externo/ex.html">EXTERNO</a></li>
-                <li><a href="/sobre/sobre.html">SOBRE</a></li>
-            </ul>
-        </menu>
+            <div class="menu">
+                <menu id="itens">
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+        
+                        <li>
+                            <a href="/comercial/com.html">COMERCIAL</a>
+                        </li>
+        
+                        <li>
+                            <a href="/financeiro/fin.html">FINANCEIRO</a>
+                        </li>
+        
+                        <li>
+                            <a href="/operacional/op.html">OPERACIONAL</a>
+                        </li>
+        
+                        <li>
+                            <a href="/externo/ex.html">EXTERNO</a>
+                        </li>
+        
+                        <li>
+                            <a href="/sobre/sobre.html">SOBRE</a>
+                        </li>
+                    </ul>
+                </menu>
+            </div>
         <article>
             <h1>COMERCIAL - NOVOS CLIENTES</h1>
             <h2>Uma equipe dedicada e estratégica, com objetivo de expandir a base. Tem como principal abordagem, a compreensão das necessidades específicas de cada cliente, permitindo que possamos oferecer a melhor experiência! <br><br>
@@ -38,8 +61,6 @@
                 <a href="/comercial/mat/Passo a Passo - Cadastro.pdf" target="_blank">&laquo; Cadastro novos clientes &raquo;</a>
         </article>
     </header>
-    <main>
-    </main>
     <script>
         function clickMenu() {
             if (itens.style.display == 'block') {
