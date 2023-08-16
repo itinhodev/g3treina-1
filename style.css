@@ -27,7 +27,7 @@ header {
 }
 
 .logo img{
-    width: 50%;
+    width: 60%;
 }
 
 .menu {
@@ -70,33 +70,39 @@ menu > ul > li > a:hover {
     i#burguer {
         display:none;
     }
+
     .logo {
         justify-content: center;
         text-align: center;
         align-items: center;
         width: 50%;
         margin:auto;
-        margin-top: 30px;
-        
+        margin-top: 12vw; 
     }
+
     .logo img{
         width:25%;
     }
+
     menu {
         padding: 30px;
         display: block;
     }
+
     menu > ul > li {
         display: inline;
     }
+
     menu > ul > li > a {
         padding: 15px;
         display: inline-block;
         border: none;
     }
+
     menu > ul > li > a:hover{
         transition: 1s;
     }
+
     main {
         width: 768px;
     }
@@ -107,37 +113,43 @@ menu > ul > li > a:hover {
     i#burguer {
         display:none;
     }
+
     .logo {
         justify-content: center;
         text-align: center;
         align-items: center;
         width: 50%;
         margin:auto;
-        margin-top: 30px;
+        margin-top: 12vw;
         
     }
-    
+
     .logo img{
         width: 20%;
     }
+
     menu {
         padding: 30px;
         display: flex;
         font-size: 10px;
     }
+
     menu > ul > li {
         display: inline;
         padding: 0px;
         margin: 0px;
     }
+
     menu > ul > li > a {
         padding: 15px;
         display: inline-block;
         border: none;
     }
+
     menu > ul > li > a:hover{
         transition: 1s;
     }
+    
     main {
         width: 768px;
     }        
